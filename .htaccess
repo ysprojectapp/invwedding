@@ -1,0 +1,23 @@
+Options -Indexes
+RewriteEngine On
+RewriteBase /
+
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "geolocation=(), microphone=()"
+</IfModule>
+
+RewriteRule ^(config|includes|templates/.*/template\.json|uploads/.*\.(php|phar|phtml)) - [F,L,NC]
+RewriteRule ^(?:\.env|database\.sql|.*\.(?:bak|sql|log))$ - [F,L,NC]
+RewriteRule ^admin/?$ admin/index.php [L,QSA]
+RewriteRule ^templates/?$ index.php?route=templates [L,QSA]
+RewriteRule ^admin/([^/]+)/?$ admin/$1.php [L,QSA]
+RewriteRule ^api/(rsvp|wishes)/?$ api/$1.php [L,QSA]
+RewriteRule ^(demo|template|checkout|share)/([^/]+)/?$ index.php?route=$1&slug=$2 [L,QSA]
+RewriteRule ^calendar/([^/]+)/?$ index.php?route=calendar&slug=$1 [L,QSA]
+RewriteRule ^order/([^/]+)/?$ index.php?route=order&id=$1 [L,QSA]
+RewriteRule ^invitation/([^/]+)/?$ index.php?route=invitation&slug=$1 [L,QSA]
+RewriteRule ^([^/]+)/?$ index.php?route=invitation&slug=$1 [L,QSA]
+RewriteRule ^$ index.php [L,QSA]

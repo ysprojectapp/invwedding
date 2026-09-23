@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-copy]').forEach(button=>button.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(button.dataset.copy);button.textContent='Berhasil disalin';setTimeout(()=>button.textContent='Salin',1600)}catch(error){}}));

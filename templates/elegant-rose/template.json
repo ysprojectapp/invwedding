@@ -1,0 +1,9 @@
+{
+  "meta":{"name":"Elegant Rose","slug":"elegant-rose","category":"Elegant","description":"Romantis, lembut, dan penuh detail floral.","price":99000,"color":"#d5a7a1","sort":1,"popular":true},
+  "opening":{"title":"The Wedding of","bride":"Aisyah","groom":"Akmal","date":"31.12.26","button":"Buka Undangan"},
+  "hero":{"title":"The Wedding of","couple":"Aisyah & Akmal","date":"31 December 2026","hashtag":"#AisyahAkmal"},
+  "countdown":{"enabled":true,"date":"2026-12-31T08:00:00+07:00","title":"Save The Date"},
+  "couple":{"bride":{"name":"Aisyah Putri","full_name":"Aisyah Putri","photo":"","instagram":"aisyah"},"groom":{"name":"Akmal Pratama","full_name":"Akmal Pratama","photo":"","instagram":"akmal"}},
+  "events":[{"title":"Akad Nikah","date":"31 December 2026","time":"08:00 - 10:00","venue":"Masjid Al-Hikmah","address":"Jl. Contoh No. 123","maps":"https://maps.google.com"},{"title":"Resepsi Pernikahan","date":"31 December 2026","time":"11:00 - 14:00","venue":"Gedung Pernikahan","address":"Jl. Contoh No. 456","maps":"https://maps.google.com"}],
+  "dress_code":{"enabled":true,"title":"Dress Code","description":"Formal / Earth Tone"},"live_streaming":{"enabled":true,"title":"Live Streaming","url":"https://youtube.com"},"love_story":[{"year":"2019","title":"First Meet","description":"Sebuah pertemuan sederhana yang menjadi awal cerita."},{"year":"2024","title":"The Proposal","description":"Kami memilih untuk melangkah bersama."}],"gallery":[],"wedding_gift":{"enabled":true,"accounts":[{"bank":"BCA","number":"123456789","owner":"Aisyah Putri"}],"address":"Jl. Contoh No. 123, Jakarta"},"rsvp":{"enabled":true},"wishes":{"enabled":true},"doa":{"enabled":true,"text":"Baarakallahu laka wa baaraka 'alaika wa jama'a bainakumaa fii khair."},"footer":{"branding":"WAKTUTEMU.ID","text":"Made with love"}
+}

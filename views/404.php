@@ -1,0 +1,1 @@
+<?php require_once __DIR__ . '/partials/head.php'; ?><main class="error-page"><span class="eyebrow">404</span><h1>Halaman tidak ditemukan.</h1><p>Link yang Anda buka mungkin sudah dipindahkan.</p><a class="button" href="<?= e(url()) ?>">Kembali ke beranda</a></main><?php require_once __DIR__ . '/partials/foot.php'; ?>

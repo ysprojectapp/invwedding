@@ -1,0 +1,1 @@
+<?php require_once __DIR__ . '/../../includes/functions.php'; admin_required(); ?><!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title><?= e($page_title ?? 'Admin - ' . APP_NAME) ?></title><link rel="stylesheet" href="/assets/css/app.css"></head><body><div class="admin-shell">
